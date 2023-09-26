@@ -7,7 +7,7 @@
     { title: 'Guaranteed Lowest', content: 'Price for Solar'},
     { title: '24/7', content: 'Energy'}
     ]"
-></app-hightlight>
+></app-hightlight><!--Solar Panels-->
 <app-videoflexreverse
   [video]="true"
   [pathvideo]="'/assets/videos/videos-flex/saving.mp4'"
@@ -21,7 +21,7 @@
   { title: '', content: ''},
   { title: '', content: ''}
   ]"
-></app-videoflexreverse>
+></app-videoflexreverse><!--Saving-->
 <app-videoflexreverse
   [video]="false"
   [div_flex_reverse]="false"
@@ -29,14 +29,14 @@
   [title]="'Sleek and Durable'"
   [subtitle]="'Design'"
   [content]="'Our solar panels are low-profile and durable — quietly converting sunlight to energy for decades to come. Integrated hardware and simple design achieve this by securing the panels close to your roof and to each other for a minimalist aesthetic. Schedule a virtual consultation with an Energy Advisor to learn more.'"
-></app-videoflexreverse>
+></app-videoflexreverse><!--Design-->
 <app-commonsection 
   [selectColor]="false"
   [secondaryClass]="'powerwall-image'"
   [subtitle]="'Powerwall'"
   [title]="'Home Battery Backup'"
   [content]="'Your Powerwall can be bundled with solar, allowing you to generate clean energy and store it for use anytime—at night or during an outage.'"
-></app-commonsection>
+></app-commonsection><!--Power Wall-->
 <app-commonsection 
   [video]="true"
   [pathvideo]="'/assets/videos/videos-common/house-demo.mp4'"
@@ -45,7 +45,7 @@
   [subtitle]="'Power On'"
   [title]="'Order and Installation'"
   [content]="'From permitting to powering on, well take care of everything. After you order, well gather remote aerial imagery of your home, design your system, take care of any necessary permits and schedule your installation. Chat with an Energy Advisor or request a call to learn more.'"
-></app-commonsection>
+></app-commonsection><!--Power Wall video-->
 <app-videoflexreverse
   [video]="false"
   [div_flex_reverse]="false"
@@ -53,16 +53,18 @@
   [title]="'Maximum Solar Production'"
   [subtitle]="'Efficiency'"
   [content]="'Tesla Solar panels are designed to be highly efficient, delivering maximum solar production year-round, even on roofs with complicated angles. Powered by Tesla Solar Inverter, your fully integrated system is safe and reliable.'"
-></app-videoflexreverse>
+></app-videoflexreverse><!--Efficiency-->
 <app-commonsection 
   [selectColor]="false"
   [secondaryClass]="'experience-image'"
   [subtitle]="'Experience'"
   [title]="'24/7 Monitoring'"
   [content]="'Manage your solar system from anywhere in the world with 24/7 mobile monitoring. Watch your energy in real time or set your preferences to optimize for energy independence.'"
-></app-commonsection>
+></app-commonsection><!--Experience-->
 <app-specs 
   [secondaryClass]="'specs-image-solar-painels'"
   [title]="'Solar Panels'"
-></app-specs>
-<app-footerpanels [title]="'Panels'"></app-footerpanels>
+></app-specs><!--Specs-->
+<app-footerpanels 
+  [title]="'Panels'"
+></app-footerpanels><!--Order-->

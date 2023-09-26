@@ -6,7 +6,7 @@
     { title: '3.1 S', content: '0-60 mph*' },
     { title: '358 mi', content: 'Range (EPA est.)' },
     { title: 'AWD', content: 'Dual Motor' }]"
-></app-hightlight>
+></app-hightlight><!--Model 3 main-->
 <app-videoflexreverse
   [video]="false"
   [div_flex_reverse]="true"
@@ -19,7 +19,7 @@
   { title: '', content: '' },
   { title: '', content: '' }
   ]"
-></app-videoflexreverse>
+></app-videoflexreverse><!--safety-->
 <app-commonsection 
   [selectColor]="false"
   [secondaryClass]="'image-performance'"
@@ -31,7 +31,7 @@
     { title: '162 mph', content: 'Improved handling and aerodynamics allow for a top speed of 162 mph' },
     { title: 'AWD', content: 'Dual Motor All-Wheel Drive instantly controls traction and torque, in all weather conditions' }
   ]"
-></app-commonsection>
+></app-commonsection><!--Performance-->
 <app-commonsection 
   [selectColor]="false"
   [secondaryClass]="'image-all-wheel-drive-3'"
@@ -43,7 +43,7 @@
     { title: '10 ms', content: 'Dual motors respond to changing conditions in as little as 10 milliseconds' },
     { title: 'AWD', content: 'Unparalleled traction and control, in all weather conditions' }
   ]"
-></app-commonsection>
+></app-commonsection><!--All wheel drive-->
 <app-videoflexreverse
   [video]="false"
   [div_flex_reverse]="true"
@@ -56,12 +56,18 @@
   { title: '15 min', content: 'Recharge up to 175 mi in 15 minutes at Supercharger locations' },
   { title: '40,000 +', content: 'Superchargers placed along well-traveled routes around the world' }
   ]"
-></app-videoflexreverse>
+></app-videoflexreverse><!--Range-->
 <app-autopilot
   [content]="'Autopilot enables your car to steer, accelerate and brake automatically within its lane under your active supervision, assisting with the most burdensome parts of driving. With over-the-air software updates, the latest enhancements are available instantly. Chat with a Tesla Advisor to learn more about Model 3.'"
-></app-autopilot>
+></app-autopilot><!--Autopilot-->
 <app-interior
   [content]="'The inside of Model 3 is unlike any other car. You can use your smartphone as a key, and access all driver controls in the central 15-inch touchscreen. The all-glass roof extends from front to back, creating a sense of openness from every seat.'"
-></app-interior>
-<app-specs [secondaryClass]="'image-specs-car'" [title]="'Model 3'"></app-specs>
-<app-order [title]="'Model 3'" [secondaryClass]="'image-order-model-3'"></app-order>
+></app-interior><!--Interior-->
+<app-specs 
+  [secondaryClass]="'image-specs-car'" 
+  [title]="'Model 3'"
+></app-specs><!--Specs-->
+<app-order 
+  [title]="'Model 3'" 
+  [secondaryClass]="'image-order-model-3'"
+></app-order><!--Order-->

@@ -9,10 +9,10 @@
     { title: '1,020 hp', content: 'Peak Power' }
   ]"
     >
-</app-hightlight>
-<app-interiorcar></app-interiorcar>
-<app-slidevideointeriorcar></app-slidevideointeriorcar>
-<app-detailscar></app-detailscar>
+</app-hightlight><!--Model S-->
+<app-interiorcar></app-interiorcar><!--Interior car image-->
+<app-slidevideointeriorcar></app-slidevideointeriorcar><!--Slide de videos do interior do carro-->
+<app-detailscar></app-detailscar><!--Atributos do carro-->
 <app-commonsection 
   [selectColor]="false"
   [secondaryClass]="'beyond-ludicrous-image-model-s'"
@@ -24,13 +24,13 @@
     { title: '9.23 s', content: '@155 mph 1/4 mile' },
     { title: '1.99 s', content: '0-60 mph*' }
   ]"
-></app-commonsection>
+></app-commonsection><!--beyond-ludicrous-->
 <app-electricpowertrain
 [car]="[
 { title: 'Model S', content: 'Dual Motor All-Wheel Drive unlocks more range than any other vehicle in our current lineup, with insane power and maximum control.'},
 { title: 'Model S Plaid', content: 'Maintain 1,000+ horsepower all the way to 200 mph with Tri-Motor All-Wheel Drive, featuring torque vectoring and three independent carbon-sleeved rotors.'},
 ]"
-></app-electricpowertrain>
+></app-electricpowertrain><!--All-Wheel Drive-->
 <app-commonsection 
   [selectColor]="true"
   [secondaryClass]="'designed-for-efficiency-image-model-s'"
@@ -42,12 +42,12 @@
     { title: '', content: '' },
     { title: '', content: '' }
   ]"
-></app-commonsection>
+></app-commonsection><!--designed-for-efficiency-->
 <app-detailscarexterior 
   [secondaryClass_image_1]="'car-attributes-image-1'"
   [secondaryClass_image_2]="'car-attributes-image-2'"
   [secondaryClass_image_3]="'car-attributes-image-3'"
-></app-detailscarexterior>
+></app-detailscarexterior><!--Detalahes do exterior do carro-->
 <app-videoflexreverse
   [video]="true"
   [pathvideo]="'/assets/videos/videos-flex/range-s.mp4'"
@@ -61,7 +61,7 @@
   { title: '15 mi', content: 'Recharge up to 200 miles in 15 minutes at Supercharger locations' },
   { title: '40,000 +', content: 'Superchargers placed along popular routes' }
   ]"
-></app-videoflexreverse>
+></app-videoflexreverse><!--Range-->
 <app-freedomtotravel></app-freedomtotravel>
 <app-videoflexreverse
   [video]="false"
@@ -70,10 +70,16 @@
   [title]="'High Impact Protection'"
   [subtitle]="'Safety'"
   [content]="'Model S is built from the ground up as an electric vehicle, with a high-strength architecture and floor-mounted battery pack for incredible occupant protection and low rollover risk. Every new Model S includes Teslas latest active safety features, such as Automatic Emergency Braking, at no extra cost.'"
-></app-videoflexreverse>
+></app-videoflexreverse><!--Safety-->
 <app-autopilot
   [content]="'Autopilot enables your car to steer, accelerate and brake automatically within its lane under your active supervision, assisting with the most burdensome parts of driving. With over-the-air software updates, the latest enhancements are available instantly. Chat with a Tesla Advisor to learn more about Model S.'"
-></app-autopilot>
+></app-autopilot><!--Autopilot-->
 <app-cardemo ></app-cardemo>
-<app-specs [secondaryClass]="'image-specs-car'" [title]="'Model S'"></app-specs>
-<app-order [title]="'Model S'" [secondaryClass]="'image-order-model-s'"></app-order>
+<app-specs 
+  [secondaryClass]="'image-specs-car'" 
+  [title]="'Model S'"
+></app-specs><!--Specs-->
+<app-order 
+  [title]="'Model S'" 
+  [secondaryClass]="'image-order-model-s'"
+></app-order><!--Order-->
