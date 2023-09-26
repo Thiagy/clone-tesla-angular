@@ -1,0 +1,128 @@
+.beyond-ludicrous-image{
+    height: 374px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.car-attributes-box{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    bottom: 2vh;
+    justify-content: space-evenly;
+}
+.car-attribute{
+    color: white;
+    text-align: center;
+    width: 25%;
+}
+.car-attribute h2{
+    font-size: 28px;
+    margin-bottom: 1vh;
+}
+.car-attribute p{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.box-title-text{/*box title text*/
+    padding: 6vh 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+}
+.box-title{
+    width: 35%;
+    padding: 3vh;
+}
+.box-title h1{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.box-text{
+    width: 50%;
+    padding: 15px;
+}
+.div-button{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#beyond-ludicrous-image-model-s{
+    background-image: url("../images/imgs-common/model-s/performance-model-s-2.jfif");
+}
+#beyond-ludicrous-image-model-x{
+    background-image: url("../images/imgs-common/model-x/performance-model-x.jfif");
+}
+#designed-for-efficiency-image-model-s{
+    background-image: url("../images/imgs-common/model-s/exterior-model-s-3.jpeg");
+}
+#designed-for-efficiency-image-model-x{
+    background-image: url("../images/imgs-common/model-x/exterior-model-x-2.jfif");
+}
+#image-performance{
+    background-image: url("../images/imgs-common/performance-model-3.jfif");   
+}
+#image-all-wheel-drive-3{
+    background-image: url("../images/pg-model-3/blue-car-model-3.jfif");
+}
+#image-all-wheel-drive-y{
+    background-image: url("../images/pg-model-y/AWD_hero@2.jfif");
+}
+#powerwall-image{
+    background-image: url("../images/imgs-common/power-wall.jfif");
+}
+#experience-image{/*Experience*/
+    background-image: url("../images/imgs-common/experience.jfif");
+}
+#design-image{/*div design*/
+    background-image: url("../images/imgs-common/house-1.webp");
+}
+
+
+@media (max-width: 1200px){
+
+     .box-title-text{
+        width: 100%;
+    }
+
+}
+@media (max-width:768px){
+    
+    .box-title-text{
+        flex-direction: column;
+    }
+    .box-title, .box-text{
+        width: 100%;
+    }
+    .car-attributes-box{
+        width: 100%;
+    }
+    #designed-for-efficiency-image-model-s{
+        background-image: url("../images/imgs-common/model-s/model-s-red-768px.jfif");
+    }
+    #designed-for-efficiency-image-model-x{
+        background-image: url("../images/imgs-common/model-x/exterior-model-x-1.jfif");
+    }
+
+    #image-all-wheel-drive-y{
+        background-image: url("../images/pg-model-y/AWD_hero-mobile@2-jpg.avif");
+    }
+
+    #beyond-ludicrous-image-model-s{
+        background-image: url("../images/imgs-common/model-s/Model-S-Performance-Hero-Mobile-LHD.avif");
+    }
+    #beyond-ludicrous-image-model-x{
+        background-image: url("../images/imgs-common/model-x/performance-model-x-mobile.jfif");
+    }
+}
+@media (max-width: 425px){
+    
+    .car-attribute h2{
+        font-size: 17px;
+    }
+    .car-attribute p{
+        font-size: 10px;
+    }
+}

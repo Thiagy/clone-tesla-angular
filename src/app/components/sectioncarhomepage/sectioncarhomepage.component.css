@@ -1,0 +1,78 @@
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+#section-model-3{
+    background-image: url("../images/homepage/model-3.jfif");
+}
+#section-2{
+    background-image: url("../images/homepage/model-y.jfif");
+}
+#section-model-s{
+    background-image: url("../images/homepage/model-s.jfif");
+}
+#section-model-x{
+    background-image: url("../images/homepage/model-x.jfif");
+}
+#section-solar-roof{
+    background-image: url("../images/homepage/solar-roof.webp");
+}
+#section-solar-panels{
+    background-image: url("../images/homepage/solar-panels.jfif");
+}
+#section-acessories{
+    background-image: url("../images/homepage/accessories.jfif");
+}
+.section-7{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (max-width: 600px){
+    
+    .div-button-homepage{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .list-footer{
+        flex-direction: column;
+        gap: 2px;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+    .oculto{
+        display: none;
+    }
+}
+@media (max-width: 425px){
+
+    #section-model-3{
+        background-image: url("../images/homepage/model-3-litle.jfif");
+    }
+    #section-2{
+        background-image: url("../images/homepage/model-y-litle.jfif");
+    }
+    #section-model-s{
+        background-image: url("../images/homepage/model-s-litle.jfif");
+    }
+    #section-model-x{
+        background-image: url("../images/homepage/model-x-litle.jfif");
+    }
+    #section-solar-roof{
+        background-image: url("../images/homepage/solar-roof-litle.webp");
+    }
+    #section-solar-panels{
+        background-image: url("../images/homepage/solar-panels.jfif");
+    }
+    #section-acessories{
+        background-image: url("../images/homepage/Homepage-Accessories-Mobile.webp");
+    }
+
+}

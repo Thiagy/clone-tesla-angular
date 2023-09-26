@@ -1,0 +1,19 @@
+<section class="div-electric-powertrain"><!--div freedom to travel-->
+    <div class="electric-powertrain-text">
+        <h1>Freedom to Travel</h1>
+        <p>Enter a destination on your touchscreen and Trip Planner will automatically calculate your route with Superchargers along the way.</p>
+    </div>
+    <div class="freedom-to-travel-image">
+        <img src="{{ images[currentImageIndex].src }}" id="freedomtravel" alt="">
+    </div>
+    <div class="box-slide">
+        <div class="slide-map" *ngFor="let image of images; let i = index" (click)="changeImage(i)">
+            <div class="darkness-line" [style.background-color]="currentImageIndex === i ? 'black' : 'gray'"></div>
+            <p [style.color]="currentImageIndex === i ? 'black' : 'gray'">{{image.title}}</p>
+            <h2 [style.color]="currentImageIndex === i ? 'black' : 'gray'">{{image.content}}</h2>
+        </div>
+    </div>
+    <div class="div-button" style="padding: 5vh;">
+        <button class="btn-border-black">Learn More</button>
+    </div>
+</section>

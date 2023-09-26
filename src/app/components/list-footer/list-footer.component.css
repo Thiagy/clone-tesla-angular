@@ -1,0 +1,25 @@
+.list-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 50px;
+    list-style: none;
+    gap: 20px;
+    color: #171A20;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    color: #5C5E62;
+    margin-bottom: 28px;
+}
+@media (max-width: 600px){
+    
+    .list-footer{
+        flex-direction: column;
+        gap: 2px;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+    .oculto{
+        display: none;
+    }
+}

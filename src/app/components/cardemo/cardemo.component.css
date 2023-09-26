@@ -1,0 +1,35 @@
+.div_video_demo{
+    height: 500px;
+    width: 100%;
+}
+#demo-video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.box-slide-text-features{
+    width: 24.6%;
+    cursor: pointer;
+}
+.box-slide-text-features p{
+    font-size: clamp(5px, 10vw, 15px);
+    color: gray;
+
+}
+.box-slide-text-features h2{
+    font-size: clamp(7px, 10vw, 20px);
+    color: gray;
+
+}
+
+@media (max-width: 600px){
+    
+    .box-slide-text-features p{
+        font-size: 8px;
+    }
+    .box-slide-text-features h2{
+        font-size: 12px;
+    }
+    
+ }

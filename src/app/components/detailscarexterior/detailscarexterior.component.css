@@ -1,0 +1,70 @@
+.car-attributes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: auto;
+    width: 89%;
+}
+#car-attributes-image-1{
+    background-image: url("../images/pg-model-s/exterior-s-1.jfif");
+}
+#car-attributes-image-2{
+    background-image: url("../images/pg-model-s/exterior-s-2.jfif");
+}
+#car-attributes-image-3{
+    background-image: url("../images/pg-model-s/exterior-s-3.jfif");
+}
+#car-attributes-image-4{
+    background-image: url("../images/pg-model-x/exterior-x-1.jfif");
+}
+#car-attributes-image-5{
+    background-image: url("../images/pg-model-x/exterior-x-2.jfif");
+}
+#car-attributes-image-6{
+    background-image: url("../images/pg-model-x/exterior-x-3.jfif");
+}
+.car-attributes-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 50%;
+}
+.car-attributes-video{
+    height: 100%;
+    width: 50%;
+}
+.car-attributes-text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 17px;
+    width: 30%;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+@media (max-width:768px){
+    
+    .car-attributes, .car-attributes-box{
+        width: 100%;
+    }
+   
+}
+@media (max-width: 600px){
+    
+   .car-attributes-1, .car-attributes-3, .car-attributes-5{
+        flex-direction: column;
+        width: 100%;
+   }
+   .car-attributes-2, .car-attributes-4, .car-attributes-6{
+    flex-direction: column-reverse;
+    width: 100%;
+   }
+   .car-attributes-image, .car-attributes-text, .car-attributes-video{
+    width: 100%;
+   }
+   
+}

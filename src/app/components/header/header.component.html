@@ -1,0 +1,18 @@
+<header>
+    <a routerLink="/" class="logo">
+        TESLA
+    </a>
+    <nav class="main-menu">
+        <a routerLink="models">Model S</a>
+        <a routerLink="model3">Model 3</a>
+        <a routerLink="modelx">Model X</a>
+        <a routerLink="modely">Model Y</a>
+        <a routerLink="solarroof">Solar Roof</a>
+        <a routerLink="solarpanels">Solar Panels</a>
+    </nav>
+    <nav class="shop-account-menu">
+        <a routerLink="" id="shop">Shop</a>
+        <a routerLink="" id="account">Account</a>
+        <a [ngStyle]="{ 'cursor': 'pointer' }" id="menu" (click)="toggleMenu()">Menu</a>
+    </nav>    
+</header>

@@ -1,0 +1,37 @@
+.video-utility{/*div utility*/
+    width: 93.5%;
+    border-radius: 15px;
+    margin: auto;
+}
+
+#display-car{
+    background-image: url('../images/imgs-common/utility-1.jfif');
+    height: 470px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.box-navigation{
+    width: 45.6%;
+    height: 30vh;
+    margin:auto;
+    padding: 5vh;
+}
+.navigation{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 2vh;
+}
+.option{
+    height: 14px;
+    width: 14px;
+    padding: 4px;
+    border-radius: 50%;
+    background-color: #5C5E62;
+    cursor: pointer;
+}
+#box-text-navigation{
+    
+    color: black;
+}

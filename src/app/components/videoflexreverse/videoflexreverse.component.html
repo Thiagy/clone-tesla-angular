@@ -1,0 +1,26 @@
+<section class="div-flex" [ngStyle]="{'flex-direction': div_flex_reverse ? 'row' : 'row-reverse'}" [ngStyle]="{'flex-direction': isScreenWidthAbove1200px ? 'column' : 'row'}">
+    <div class="div_video_flex" [class]="secondaryClass">
+        <video 
+            [style.display]=" video? 'block' : 'none'"
+            class="video_flex"  
+            src={{pathvideo}} loop autoplay>
+        </video>
+        <div class="car-attributes-box">
+            <div class="car-attribute" *ngFor="let attribute of attributes">
+                <h2>{{ attribute.title }}</h2>
+                <p>{{ attribute.content }}</p>
+              </div>
+        </div>
+    </div>
+    <div class="tex-div-flex">
+        <div>
+            <h4>{{subtitle}}</h4>
+            <h1>{{title}}</h1>
+            <p>{{content}}</p>
+        </div>
+        <div class="div-flex-button">
+            <button class="btn-order-now-flex">Order Now</button>
+            <button class="btn-second-flex">Find My Route</button>
+        </div>
+    </div>
+</section>

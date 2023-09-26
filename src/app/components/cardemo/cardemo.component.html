@@ -1,0 +1,16 @@
+<section class="div-electric-powertrain">
+  <div class="electric-powertrain-text">
+    <h1>Features</h1>
+    <p>Enhanced Autopilot and Full Self-Driving capability introduce additional features and improve existing functionality to make your car more capable over time, including:</p>
+  </div>
+  <div class="div_video" style="width: 100%;">
+    <video [src]="videos[currentVideoIndex].src" class="video" autoplay loop id="demo-video"></video>
+  </div>
+  <div class="box-slide">
+    <div class="box-slide-text-features" *ngFor="let video of videos; let i = index" (click)="playVideo(i)">
+      <div class="darkness-line-video" [style.background-color]="currentVideoIndex === i ? 'black' : 'gray'" [style.height]="currentVideoIndex === i ? '3px' : '2px'"></div>
+      <h2 [style.color]="currentVideoIndex === i ? 'black' : 'gray'">{{video.title}}</h2>
+      <p [style.color]="currentVideoIndex === i ? 'black' : 'gray'">{{video.description}}</p>
+    </div>
+  </div>
+</section>

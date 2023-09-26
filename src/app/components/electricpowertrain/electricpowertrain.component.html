@@ -1,0 +1,50 @@
+<section class="div-electric-powertrain"><!--div Electric Powertrain-->
+    <div class="electric-powertrain-text">
+        <h1>Electric Powertrain</h1>
+        <p>Model X platforms unite powertrain and battery technologies for unrivaled performance, range and efficiency. New module and pack thermal architecture allows faster charging and gives you more power and endurance in all conditions.</p>
+    </div>
+    <div id="motor-image">
+        <img src="{{ images[currentImageIndex].src }}" alt="" id="motor">
+    </div>
+    <div class="box-slide">
+        <div class="slide-electric-powertrain" (click)="changeImage(0)" [style.color]="currentImageIndex === 0 ? 'black' : 'gray'">
+            <div class="darkness-line" [style.background-color]="currentImageIndex === 0 ? 'black' : 'gray'"></div>
+            <h2>{{car[0].title}}</h2>
+            <p>{{car[0].content}}</p>
+            <div class="box-car-profile-electric-powertrain">
+                <div class="car-profile-electric-powertrain">
+                    <h2>3.1 s</h2>
+                    <p>0-60 mph</p>
+                </div>
+                <div class="car-profile-electric-powertrain">
+                    <h2>405 mi</h2>
+                    <p>Range (EPA est.)</p>
+                </div>
+                <div class="car-profile-electric-powertrain">
+                    <h2>670 hp</h2>
+                    <p>Peak Power</p>
+                </div>
+            </div>
+        </div>
+        <div class="slide-electric-powertrain" (click)="changeImage(1)" [style.color]="currentImageIndex === 1 ? 'black' : 'gray'">
+            <div class="darkness-line" [style.background-color]="currentImageIndex === 1 ? 'black' : 'gray'"></div>
+            <h2>{{car[1].title}}</h2>
+            <p>{{car[1].content}}</p>
+            <div class="box-car-profile-electric-powertrain">
+                <div class="car-profile-electric-powertrain">
+                    <h2>1.99 s*</h2>
+                    <p>0-60 mph</p>
+                </div>
+                <div class="car-profile-electric-powertrain">
+                    <h2>396 mi</h2>
+                    <p>Range (EPA est.)</p>
+                </div>
+                <div class="car-profile-electric-powertrain">
+                    <h2>1,020 hp</h2>
+                    <p>Peak Power</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p style="text-align: center;">* With rollout subtracted</p>
+</section>

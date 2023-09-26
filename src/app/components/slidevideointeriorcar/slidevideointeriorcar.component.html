@@ -1,0 +1,25 @@
+<section class="div-video-car-interior"><!--div video car interior-->
+    <div class="div_video">
+        <video class="video" id="display-car" src="/assets/videos/slideinteriorcar/1.mp4" loop autoplay #video></video>
+    </div>
+    <div class="box-navigation">
+        <div class="navigation">
+            <label for="option-1" class="option" [style.background-color]="currentVideoIndex===0 ? 'white' : 'gray'" (click)="playVideo(0)"></label>
+            <label for="option-2" class="option" [style.background-color]="currentVideoIndex===1 ? 'white' : 'gray'" (click)="playVideo(1)"></label>
+            <label for="option-3" class="option" [style.background-color]="currentVideoIndex===2 ? 'white' : 'gray'" (click)="playVideo(2)"></label>
+            <label for="option-4" class="option" [style.background-color]="currentVideoIndex===3 ? 'white' : 'gray'"(click)="playVideo(3)"></label>
+            <label for="option-5" class="option" [style.background-color]="currentVideoIndex===4 ? 'white' : 'gray'" (click)="playVideo(4)"></label>
+            <div style="display: none;">
+                <input type="radio" name="input-navigation-manual" id="option-1">
+                <input type="radio" name="input-navigation-manual" id="option-2">
+                <input type="radio" name="input-navigation-manual" id="option-3">
+                <input type="radio" name="input-navigation-manual" id="option-4">
+                <input type="radio" name="input-navigation-manual" id="option-5">
+            </div>
+        </div>
+        <div class="box-text-navigation">
+            <h4 id="title_slide_car">{{ titles[currentVideoIndex] }}</h4>
+            <p id="content_slide_car">{{ contents[currentVideoIndex] }}</p>
+        </div>
+    </div>
+</section>

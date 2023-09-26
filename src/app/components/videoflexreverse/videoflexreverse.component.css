@@ -1,0 +1,129 @@
+.div-flex{/*div-flex*/
+    display: flex;
+    justify-content: space-around;
+}
+.video_flex{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.tex-div-flex{/*text*/
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+    width: 30.45%;
+    justify-content: space-evenly;
+}
+.tex-div-flex h4{
+    font-size: 17px;
+    font-weight: lighter;
+ }
+.tex-div-flex p{
+    margin-top: 4vh;
+    font-size: 14px;
+}
+.div-flex-button{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 12px;
+    min-width: 200px;
+}
+.btn-order-now-flex{
+    border: 3px solid #171A20;
+    background-color: transparent;
+    color: #171A20;
+    padding: 4px 24px;
+    font-size: 14px;
+    border-radius: 3px;
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+.btn-order-now-flex:hover{
+    color: white;
+   background-color: #171A20;
+}
+.btn-second-flex{
+    border: 3px solid transparent;
+    background-color: #EEEEEE;
+    color: #171A20;
+    padding: 4px 24px;
+    font-size: 14px;
+    border-radius: 3px;
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+
+.image-safety{
+    background-image: url("../images/imgs-flexs/safety.jfif");
+    background-size: contain;
+}
+.range-model-x{
+    background-image: url("../images/imgs-flexs/range-model-x-1.png");
+    background-size: cover;
+}
+.range-model-3{
+    background-image: url("../images/imgs-flexs/range-model-3.jfif");
+    background-size: cover;
+}
+.utility-image{
+    background-image: url("../images/imgs-flexs/utility-model-x.png");
+    background-size: cover;
+}
+.design-image{
+    background-image: url("../images/imgs-flexs/panels-design.jfif");
+    background-size: cover;
+}
+.efficiency-image{
+    background-image: url("../images/imgs-flexs/efficiency.png");
+    background-size: cover;
+
+}
+.energy-storage-image{
+    background-image: url("../images/imgs-flexs/house-2.webp");
+    background-size: cover;
+}
+.value-image{
+    background-image: url("../images/imgs-common/house-3.webp");
+    background-size: cover;
+}
+@media (max-width: 1200px){
+
+    .div-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .image-safety{
+        background-image: url("../images/imgs-flexs/safety-mobile.jfif");
+        background-size: cover;
+    }
+
+    .tex-div-flex, .box-title-text{
+        width: 100%;
+    }
+    .div-flex-button{
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px){
+
+    .image-safety{
+        background-image: url("../images/imgs-flexs/safety-mobile.jfif");
+        background-size: cover;
+    }
+    .range-model-x{
+        background-image: url("../images/imgs-flexs/range-model-x-2.jfif");
+    }
+    .utility-image{
+        background-image: url("../images/imgs-flexs/utility-model-x-mobile.jfif");
+    }
+    
+}

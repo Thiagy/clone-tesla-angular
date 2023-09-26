@@ -1,0 +1,67 @@
+<app-hightlight 
+    [secondaryClass]="'model-3-image'" 
+    [title]="'Model 3'" 
+    [content]="'Plaid'"
+    [attributes]="[
+    { title: '3.1 S', content: '0-60 mph*' },
+    { title: '358 mi', content: 'Range (EPA est.)' },
+    { title: 'AWD', content: 'Dual Motor' }]"
+></app-hightlight>
+<app-videoflexreverse
+  [video]="false"
+  [div_flex_reverse]="true"
+  [secondaryClass]="'image-safety'"
+  [title]="'Built for Safety'"
+  [subtitle]="'Safety'"
+  [content]="'Safety is the most important part of every Tesla. We design our vehicles to exceed safety standard.5-Star Rating Model 3 achieved NHTSA 5-star safety ratings in every category and subcategory. Top Safety Pick+ Model 3 received the IIHS Top Safety Pick+ award, with top ratings all crashworthiness and crash prevention categories.'"
+  [attributes]="[
+  { title: '', content: '' },
+  { title: '', content: '' },
+  { title: '', content: '' }
+  ]"
+></app-videoflexreverse>
+<app-commonsection 
+  [selectColor]="false"
+  [secondaryClass]="'image-performance'"
+  [subtitle]="'Performance'"
+  [title]="'Quickest Acceleration'"
+  [content]="'Model 3 comes with the option of dual motor all-wheel drive, 20” Überturbine Wheels and Performance Brakes for total control in all weather conditions. A carbon fiber spoiler improves stability at high speeds, all allowing Model 3 to accelerate from 0-60 mph* in as little as 3.1 seconds. Chat with a Tesla Advisor to learn more about Model 3 or schedule a demo drive today.'"
+  [attributes]="[
+    { title: '3.1 s', content: 'Quickest acceleration—from zero to 60 mph* in as little as 3.1 seconds' },
+    { title: '162 mph', content: 'Improved handling and aerodynamics allow for a top speed of 162 mph' },
+    { title: 'AWD', content: 'Dual Motor All-Wheel Drive instantly controls traction and torque, in all weather conditions' }
+  ]"
+></app-commonsection>
+<app-commonsection 
+  [selectColor]="false"
+  [secondaryClass]="'image-all-wheel-drive-3'"
+  [subtitle]="'All-Wheel Drive'"
+  [title]="'Dual Motor'"
+  [content]="'Tesla All-Wheel Drive has two independent motors for improved redundancy, each with only one moving part for minimal maintenance and maximum durability. Unlike traditional all-wheel drive systems, they digitally control torque to the front and rear wheels for far better handling and traction control.'"
+  [attributes]="[
+    { title: '2', content: 'Independent motors digitally control torque to the front and rear wheels' },
+    { title: '10 ms', content: 'Dual motors respond to changing conditions in as little as 10 milliseconds' },
+    { title: 'AWD', content: 'Unparalleled traction and control, in all weather conditions' }
+  ]"
+></app-commonsection>
+<app-videoflexreverse
+  [video]="false"
+  [div_flex_reverse]="true"
+  [secondaryClass]="'range-model-3'"
+  [title]="'Go Anywhere'"
+  [subtitle]="'Range'"
+  [content]="'Model 3 is fully electric, so you never need to visit a gas station again. If you charge overnight at home, you can wake up to a full battery every morning. And when youre on the road, its easy to plug in along the way—at any public station or with the Tesla charging network. We currently have over 40,000 Superchargers worldwide, with six new locations opening every week. Chat with a Tesla Advisor to learn more about Model 3.'"
+  [attributes]="[
+  { title: '358 mi', content: 'Go anywhere with up to 358 mi of estimated range on a single charge' },
+  { title: '15 min', content: 'Recharge up to 175 mi in 15 minutes at Supercharger locations' },
+  { title: '40,000 +', content: 'Superchargers placed along well-traveled routes around the world' }
+  ]"
+></app-videoflexreverse>
+<app-autopilot
+  [content]="'Autopilot enables your car to steer, accelerate and brake automatically within its lane under your active supervision, assisting with the most burdensome parts of driving. With over-the-air software updates, the latest enhancements are available instantly. Chat with a Tesla Advisor to learn more about Model 3.'"
+></app-autopilot>
+<app-interior
+  [content]="'The inside of Model 3 is unlike any other car. You can use your smartphone as a key, and access all driver controls in the central 15-inch touchscreen. The all-glass roof extends from front to back, creating a sense of openness from every seat.'"
+></app-interior>
+<app-specs [secondaryClass]="'image-specs-car'" [title]="'Model 3'"></app-specs>
+<app-order [title]="'Model 3'" [secondaryClass]="'image-order-model-3'"></app-order>

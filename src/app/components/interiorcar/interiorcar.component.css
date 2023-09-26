@@ -1,0 +1,16 @@
+.darkness-background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    text-align: center; 
+    height: 26vh;
+}
+.car-interior{/*Div interior car*/
+    position: relative;
+    background-image: linear-gradient(to bottom, black 1%, rgba(255, 255, 255, 0) 23%, transparent 76% ), url("../images/pg-model-s/MS-Interior.jfif");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}

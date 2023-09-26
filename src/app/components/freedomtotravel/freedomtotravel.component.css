@@ -1,0 +1,20 @@
+.freedom-to-travel-image{/*div freedom to travel*/
+    width: 92.9%;
+    height: 100vh;
+    border-radius: 20px;
+}
+.freedom-to-travel-image img{/*div freedom to travel*/
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:768px){
+    
+    .freedom-to-travel-image{
+        
+        width: 100%;
+        height: 80vh;
+
+    }
+
+}

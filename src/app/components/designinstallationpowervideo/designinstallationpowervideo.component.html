@@ -1,0 +1,24 @@
+<section class="div-electric-powertrain"><!--div design-installation-power-on-->
+    <div class="box-title-text">
+        <div class="box-title">
+            <p>Design</p>
+            <h1>Complement Your Home's Aesthetic</h1>
+            <div class="div-button">
+                <button class="btn-border-black">Order Now</button>
+            </div>
+        </div>
+        <p class="box-text">
+            Install Solar Roof and power your home with a fully integrated solar and energy storage system. The glass solar tiles and steel roofing tiles look great up close and from the street, complementing your home's natural styling. Schedule a virtual consultation with an Energy Advisor to learn more.
+        </p>
+    </div>
+    <div class="div_video">
+        <video class="video" src="/assets/videos/videos-common/design-installation-power-on/1.webm" autoplay loop id="box-video-design-installation-power-on" id="video-des-instll-po"></video>
+    </div>
+    <div class="box-navigation-manual box-slide">
+        <div class="navigations nav-bar-video car-attribute" *ngFor="let video of videos; let i = index" (click)="playVideo(i)" [style.color]="currentVideoIndex === i ? 'black' : 'gray'" >
+            <div class="darkness-line-video" [style.background-color]="currentVideoIndex === i ? 'black' : 'gray'" [style.height]="currentVideoIndex === i ? '3px' : '2px'"></div>
+            <h2>{{ video.title }}</h2>
+            <p>{{ video.description }}</p>    
+        </div>
+    </div>
+</section>

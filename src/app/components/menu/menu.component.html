@@ -1,0 +1,28 @@
+<div id="backdrop" [ngStyle]="{ 'display': (isOpen$ | async) ? 'block' : 'none' }" (click)="toggleMenu()"></div>
+<aside [ngStyle]="{ 'right.px': (isOpen$ | async) ? 0 : -294 }">
+    <button id="close_menu" (click)="toggleMenu()">&times;</button>
+    <div id="menu_ocult">
+        <a routerLink="models">Model S</a>
+        <a routerLink="model3">Model 3</a>
+        <a routerLink="modelx">Model X</a>
+        <a routerLink="modely">Model Y</a>
+        <a routerLink="solarroof">Solar Roof</a>
+        <a routerLink="solarpanels">Solar Panels</a>
+    </div>
+    <a>Existing Inventory</a>
+    <a>Used Inventory</a>
+    <a>Trade-In</a>
+    <a>Test Drive</a>
+    <a>Insurance</a>
+    <a>Cybertruck</a>
+    <a>Roadster</a>
+    <a>Semi</a>
+    <a>Charging</a>
+    <a>Powerwall</a>
+    <a>Commercial Energy</a>
+    <a>Utilities</a>
+    <a>Find Us</a>
+    <a>Support</a>
+    <a>Investor Relations</a>
+    <a>United States English</a>
+</aside>

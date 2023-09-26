@@ -1,0 +1,34 @@
+<section [style.background-color]="selectColor ? 'black' : 'white'"><!--div Beyond Ludicrous-->
+    <div class="beyond-ludicrous-image" [id]="secondaryClass">
+
+        <video 
+            [style.display]=" video? 'block' : 'none'"
+            class="video_flex"  
+            src={{pathvideo}} loop autoplay>
+        </video>
+        
+        <div class="car-attributes-box">
+            <div class="car-attribute" *ngFor="let attribute of attributes">
+                <h2>{{ attribute.title }}</h2>
+                <p>{{ attribute.content }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="box-title-text">
+        <div class="box-title">
+            <h4 [style.color]="selectColor ? 'white' : 'black'">{{subtitle}}</h4>
+            <h1 [style.color]="selectColor ? 'white' : 'black'">{{title}}</h1>
+            <div class="div-button">
+                <button class="btn-border-black" 
+                [style.color]="selectColor ? 'white' : 'black'"
+                [style.borderColor]="selectColor ? 'white' : 'black'"
+                >Buy Now</button>
+                <button 
+                    [style.background-color]="selectColor ? '#171A20' : '#EEEEEE'"
+                    [style.color]="selectColor ? 'white' : 'black'"
+                    class="btn-border-transparent">Custom Order</button>
+            </div>
+        </div>
+        <p class="box-text" [style.color]="selectColor ? 'white' : 'black'">{{content}}</p>
+    </div>
+</section>

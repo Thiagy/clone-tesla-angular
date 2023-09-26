@@ -1,0 +1,12 @@
+.autopilot-image{/*div autopilot*/
+    background-image: url("../images/imgs-common/autopilot/autopilot-2.jfif");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+@media (max-width:768px){
+    .autopilot-image{
+        height: 100vh;
+    }
+}

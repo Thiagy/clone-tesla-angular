@@ -1,0 +1,103 @@
+.main-div{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-content{
+    height: 440px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-title-box h1{
+    text-align: center;
+    font-size: 2.62rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.main-title-box p{
+    margin-top: 13px;
+    font-size: 1rem;
+    text-align: center;
+}
+.car-profile-box{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    gap: 3vh;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.car-profile h2{
+    font-size: 3.5vh;
+}
+.bate-papo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 78vh;
+    right: 3vh;
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px -1px 1px 1px  rgba(0, 0, 0, .2), -1px 1px 1px 1px  rgba(0, 0, 0, .2);
+    z-index: 5;
+}
+
+#model-s-image{/*div main*/
+    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/pg-model-s/Model-S-Main.jfif');
+}
+#model-3-image{/*div main*/
+    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/pg-model-3/Model-3-Main.jfif');
+}
+#model-y-image{/*div main*/
+    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/pg-model-y/Model-Y-Main-Hero-Desktop-Global.jfif');
+}
+#model-x-image{/*div main*/
+    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/pg-model-x/Model-x-Main.jfif');
+}
+#solar-roof-image{/*Sessão Solar Roof*/
+    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/pg-panel-roof/Solar-Roof-Hero-Desktop-Global.webp');
+    color: white;
+}
+#solar-panels-image{/*Sessão solar panels*/
+    background-image: url('../images/pg-panel-solar/solar_panels.jfif');
+}
+
+#chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    top: 78vh;
+    right: 3vh;
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px -1px 1px 1px  rgba(0, 0, 0, .2), -1px 1px 1px 1px  rgba(0, 0, 0, .2);
+    z-index: 5;
+}
+
+@media (max-width: 612px){
+
+    #model-s-image{/*div main*/
+        background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/pg-model-s/Model-S-Main-mobile.jfif');
+    }
+    #model-x-image{/*div main*/
+        background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/pg-model-x/model-x-main-mobile.jfif');
+    }
+    
+}

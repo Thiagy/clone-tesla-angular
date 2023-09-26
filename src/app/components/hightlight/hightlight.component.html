@@ -1,0 +1,20 @@
+<section class="main-div" [id]="secondaryClass">
+    <!-- Primeira seção -->
+    <div class="main-content">
+      <div class="main-title-box">
+        <h1>{{ title }}</h1>
+        <p>{{ content }}</p>
+      </div>
+      <div class="car-profile-box">
+        <div class="car-profile" *ngFor="let attribute of attributes">
+          <h2>{{ attribute.title }}</h2>
+          <p>{{ attribute.content }}</p>
+        </div>
+        <button class="btn-border-white">Order Now</button>
+        <div id="chat">
+          <img src="/assets/chat.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  
