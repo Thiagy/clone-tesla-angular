@@ -35,7 +35,7 @@ export class SlidevideointeriorcarComponent {
   constructor(private renderer: Renderer2) {
     setInterval(() => {
       this.moveToNextVideo();
-    }, 5000);
+    }, 10000);
   }
 
   playVideo(index: number): void {
