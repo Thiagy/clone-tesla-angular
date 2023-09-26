@@ -6,7 +6,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 .main-content{
     height: 440px;
@@ -55,24 +54,24 @@
     z-index: 5;
 }
 
-#model-s-image{/*div main*/
-    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/pg-model-s/Model-S-Main.jfif');
+#model-s-image{
+    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/imgs-main/model-s/model-s-main.jfif');
 }
-#model-3-image{/*div main*/
-    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/pg-model-3/Model-3-Main.jfif');
+#model-3-image{
+    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/imgs-main/model-3/model-3-main.jfif');
 }
-#model-y-image{/*div main*/
-    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/pg-model-y/Model-Y-Main-Hero-Desktop-Global.jfif');
+#model-y-image{
+    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/imgs-main/model-y/model-y-main.jfif');
 }
-#model-x-image{/*div main*/
-    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/pg-model-x/Model-x-Main.jfif');
+#model-x-image{
+    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/imgs-main/model-x/model-x-main.jfif');
 }
 #solar-roof-image{/*Sessão Solar Roof*/
-    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/pg-panel-roof/Solar-Roof-Hero-Desktop-Global.webp');
+    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/imgs-main/solar-roof/solar-roof-main.webp');
     color: white;
 }
 #solar-panels-image{/*Sessão solar panels*/
-    background-image: url('../images/pg-panel-solar/solar_panels.jfif');
+    background-image: url('../images/imgs-main/solar-panels/solar-panels-main.jfif');
 }
 
 #chat{
@@ -94,10 +93,10 @@
 @media (max-width: 612px){
 
     #model-s-image{/*div main*/
-        background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/pg-model-s/Model-S-Main-mobile.jfif');
+        background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/imgs-main/model-s/model-s-mobile.jfif');
     }
     #model-x-image{/*div main*/
-        background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/pg-model-x/model-x-main-mobile.jfif');
+        background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 35% ), url('../images/imgs-main/model-x/model-x-main-mobile.jfif');
     }
     
 }
